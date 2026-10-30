@@ -392,3 +392,5 @@ Notes: timestamps are controlled with `evm.setTimestamp` / `evm.advance` (needed
 ## 8. Definition of done
 
 The workflow is complete when **all ten targets have a written verdict** in the register, each with either a runnable PoC or a one-paragraph kill rationale, and the survivor set has been checked against the baseline commit and the 21 prior findings. Zero confirmed critical bugs is a legitimate and valuable outcome — provided the register shows *why each one is closed*, not just that nobody found anything.
+
+**Executed:** the results of running this register end-to-end are in [`RED-TEAM-REPORT.md`](./RED-TEAM-REPORT.md) — 0 confirmed criticals, 2 Low findings, 15 candidates rejected with the killing evidence, plus the three privileged/known critical-class risks that remain outside reportable scope.
