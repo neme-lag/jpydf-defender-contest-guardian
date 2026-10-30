@@ -16,6 +16,8 @@ Dependencies are pinned in `foundry.lock`. No RPC endpoint or wallet key is need
 
 ## Documentation
 
+- [Protocol context brief](CONTEXT.md) — consolidated protocol model, architecture, parameters,
+  invariants, known risks, and scope notes assembled from this repository's docs and source
 - [Changes in scope](docs/review-boundaries.md)
 - [Client’s original review scope](SCOPE.md) — historical main-review context; the contest scope above controls eligibility. Links and commands in this file refer to the original audit package.
 - [Contracts in scope](docs/contracts-scope.md)
