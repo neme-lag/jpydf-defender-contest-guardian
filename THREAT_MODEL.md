@@ -409,7 +409,7 @@ A registered Strategy can: return a huge `est` (capped at `principal`), return 0
 
 ## 13. Ranked risk register
 
-Ordered by (impact × plausibility), with current status. "Review candidate" means *worth a contest submission or an explicit spec decision*, not "confirmed bug".
+Ordered by (impact × plausibility), with current status. The critical subset of this register, with reproduction plans and kill criteria, is executed in [`CRITICAL-BUG-WORKFLOW.md`](./CRITICAL-BUG-WORKFLOW.md). "Review candidate" means *worth a contest submission or an explicit spec decision*, not "confirmed bug".
 
 | # | Threat | Severity | Likelihood | Status | Why it is where it is |
 |---|---|---|---|---|---|

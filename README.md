@@ -20,6 +20,8 @@ Dependencies are pinned in `foundry.lock`. No RPC endpoint or wallet key is need
   invariants, known risks, and scope notes assembled from this repository's docs and source
 - [Threat model](THREAT_MODEL.md) — assets, adversaries, trust boundaries, per-zone threat
   catalogue, attack chains, ranked residual risks, and assumptions to falsify
+- [Critical-bug workflow](CRITICAL-BUG-WORKFLOW.md) — critical-only execution plan: ranked targets,
+  reproduce-or-kill loop, work cards, evidence bar, and a Foundry-free PoC harness
 - [Changes in scope](docs/review-boundaries.md)
 - [Client’s original review scope](SCOPE.md) — historical main-review context; the contest scope above controls eligibility. Links and commands in this file refer to the original audit package.
 - [Contracts in scope](docs/contracts-scope.md)
