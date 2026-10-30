@@ -22,6 +22,9 @@ Dependencies are pinned in `foundry.lock`. No RPC endpoint or wallet key is need
   catalogue, attack chains, ranked residual risks, and assumptions to falsify
 - [Critical-bug workflow](CRITICAL-BUG-WORKFLOW.md) — critical-only execution plan: ranked targets,
   reproduce-or-kill loop, work cards, evidence bar, and a Foundry-free PoC harness
+- [Red team report](RED-TEAM-REPORT.md) — the sweep executed against that plan: verdict,
+  two Low findings, fifteen rejected candidates with the code evidence that kills each,
+  and the coverage boundary
 - [Changes in scope](docs/review-boundaries.md)
 - [Client’s original review scope](SCOPE.md) — historical main-review context; the contest scope above controls eligibility. Links and commands in this file refer to the original audit package.
 - [Contracts in scope](docs/contracts-scope.md)
